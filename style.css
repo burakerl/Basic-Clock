@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-size: 30px;
+    background-color: black;
+    justify-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+}
+p{
+    font-size: 20px;
+    padding: 5px 0;
+}
+#welcome-message{
+    font-size: 50px;
+}
+#clock {
+    font-size: 60px;
+    padding: 20px;
+    color: orange;
+    letter-spacing: 7px;
+}
